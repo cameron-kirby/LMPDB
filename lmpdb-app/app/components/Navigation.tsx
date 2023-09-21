@@ -11,7 +11,7 @@ export default function Navigation() {
             <NavbarBrand>
                 <p className="font-bold text-inherit">LMPDB</p>
             </NavbarBrand>
-            <NavbarContent className="hidden sm:flex gap-4" justify="center">
+            <NavbarContent className="sm:flex gap-4" justify="center">
                 <NavbarItem isActive={(pathname === '/') ? true : false}>
                     <Link color={(pathname === '/') ? 'primary' : 'foreground'} href="/" as={NextLink}>
                         Home
